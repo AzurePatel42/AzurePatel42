@@ -20,23 +20,23 @@ I dedicate **6–8 hours daily** to mastering backend engineering and cloud infr
 ## 📌 Cloud Backend Roadmap (5 Projects)
 
 ### 1️⃣ Cloud Tasks API (FastAPI + Docker + PostgreSQL)  
-Status: **In Progress**  
+**Status:** In Progress  
 A production‑ready tasks API with CRUD, routers, models, schemas, and Dockerized environment.
 
 ### 2️⃣ Docker + PostgreSQL Microservice  
-Status: **Planned**  
+**Status:** Planned  
 A containerized microservice with migrations, volumes, and multi‑container orchestration.
 
 ### 3️⃣ Terraform IaC for Azure  
-Status: **Planned**  
+**Status:** Planned  
 Infrastructure‑as‑Code to deploy cloud resources using Terraform.
 
 ### 4️⃣ Azure Deployment Pipeline  
-Status: **Planned**  
+**Status:** Planned  
 CI/CD pipeline deploying FastAPI to Azure App Service or Azure Container Apps.
 
 ### 5️⃣ Full Cloud‑Native System  
-Status: **Planned**  
+**Status:** Planned  
 A complete backend system integrating API, database, IaC, and cloud deployment.
 
 ---
@@ -72,4 +72,3 @@ A complete backend system integrating API, database, IaC, and cloud deployment.
 Cloud Backend Engineer in training.  
 Building real cloud‑native projects every day.  
 Focused on backend architecture, cloud deployment, and professional engineering practices.
-
