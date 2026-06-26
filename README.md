@@ -1,74 +1,158 @@
-# 👋 Hi, I'm Mahesh  
-### Cloud Backend Engineer in Training | FastAPI • Docker • PostgreSQL • Azure • Terraform
+Hello I am Mahesh 
+# 🧠 Distributed Backend & AI Systems Platform
 
-I’m building a **5‑project cloud‑native backend portfolio** using Python, FastAPI, Docker, PostgreSQL, Azure, and Terraform.  
-I dedicate **6–8 hours daily** to mastering backend engineering and cloud infrastructure.
-
----
-
-## 🚀 Tech Stack  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+I design and build **distributed backend systems** combining:
+- Task orchestration
+- AI retrieval systems (RAG)
+- System of record architecture
+- Data ingestion pipelines
+- Cloud + infrastructure reliability engineering (SRE mindset)
 
 ---
 
-## 📌 Cloud Backend Roadmap (5 Projects)
+# ⚙️ SYSTEM ARCHITECTURE
 
-### 1️⃣ Cloud Tasks API (FastAPI + Docker + PostgreSQL)  
-**Status:** In Progress  
-A production‑ready tasks API with CRUD, routers, models, schemas, and Dockerized environment.
-
-### 2️⃣ Docker + PostgreSQL Microservice  
-**Status:** Planned  
-A containerized microservice with migrations, volumes, and multi‑container orchestration.
-
-### 3️⃣ Terraform IaC for Azure  
-**Status:** Planned  
-Infrastructure‑as‑Code to deploy cloud resources using Terraform.
-
-### 4️⃣ Azure Deployment Pipeline  
-**Status:** Planned  
-CI/CD pipeline deploying FastAPI to Azure App Service or Azure Container Apps.
-
-### 5️⃣ Full Cloud‑Native System  
-**Status:** Planned  
-A complete backend system integrating API, database, IaC, and cloud deployment.
-
----
-
-## 📂 Featured Projects  
-(These will be pinned on your profile)
-
-- **Cloud Tasks API** — FastAPI + Docker + PostgreSQL  
-- **Terraform Azure IaC** — Infrastructure as Code  
-- **Azure Deployment Pipeline** — CI/CD + Cloud Deployment  
-- **Full Cloud‑Native System** — End‑to‑end backend architecture  
+                AUTH LAYER (JWT / Identity)
+                          │
+    ┌──────────────────────────────────────────┐
+    │           PLATFORM CORE                  │
+    │                                          │
+    │  Task Engine   → Orchestration Layer    │
+    │  Inventory      → System of Record      │
+    │  Retrieval      → AI Intelligence (RAG) │
+    │  Ingestion      → Data Processing Layer  │
+    │  File Storage   → Asset Management       │
+    └──────────────────────────────────────────┘
+                          │
+    ┌──────────────────────────────────────────┐
+    │        INTELLIGENCE LAYER               │
+    │   Embeddings | Ranking | Context Build  │
+    └──────────────────────────────────────────┘
+                          │
+    ┌──────────────────────────────────────────┐
+    │        RELIABILITY / SRE LAYER         │
+    │ JWT | Docker | DB | Cloud | Cache | API │
+    └──────────────────────────────────────────┘
 
 ---
 
-## 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AzurePatel42&show_icons=true&theme=tokyonight)
+# 🧱 PLATFORM SYSTEMS (PRODUCTION ARCHITECTURE)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AzurePatel42&layout=compact&theme=tokyonight)
-
----
-
-## 🧠 What I'm Learning Now  
-- FastAPI architecture  
-- Docker containerization  
-- PostgreSQL schemas & migrations  
-- Terraform IaC  
-- Azure cloud services  
-- GitHub Actions CI/CD  
+## 📦 Inventory System (System of Record)
+- FastAPI + PostgreSQL
+- Central truth store for all platform entities
+- Used across all services
 
 ---
 
-## 🧩 About Me  
-Cloud Backend Engineer in training.  
-Building real cloud‑native projects every day.  
-Focused on backend architecture, cloud deployment, and professional engineering practices.
+## ⚙️ Task Engine (Orchestration Layer)
+- Lifecycle-based execution system
+- State machine-driven workflow engine
+- Worker-based processing architecture
+
+---
+
+## 🧠 Retrieval Service (AI Intelligence Layer)
+- Vector search + embedding pipeline
+- Ranking + context assembly
+- RAG-based knowledge retrieval system
+
+---
+
+## 📥 Data Ingestion Pipeline
+- Chunking + preprocessing + taxonomy system
+- Embedding preparation pipeline
+- Structured data normalization
+
+---
+
+## 📁 File Storage API
+- Azure Blob Storage integration
+- Metadata-driven file management
+- Cross-service asset access layer
+
+---
+
+## 🔐 Auth Framework
+- JWT-based authentication system
+- Distributed service trust model
+- Token validation + role-based access control
+
+---
+
+# 🔥 RELIABILITY ENGINEERING (SRE PRACTICE)
+
+I actively design and debug real-world system failures across:
+
+- JWT authentication & authorization failures
+- RAG retrieval & embedding breakdowns
+- Docker deployment issues
+- Database consistency problems
+- Cloud deployment failures (Azure / AWS)
+- Caching & performance bottlenecks
+- System design and scaling issues
+
+> I don’t just build systems — I debug them under failure conditions.
+
+---
+
+# 🧪 EXPERIMENTAL SAAS SYSTEMS
+
+- Cloud Waste Detection Platform
+- Unused License Optimization System
+- Lead Generation Intelligence Pipeline (mock → production evolution)
+
+---
+
+# 🧠 ARCHITECTURE PHILOSOPHY
+
+- System of Record must always be isolated and deterministic
+- AI systems are probabilistic and never authoritative
+- Each service must be independently deployable
+- Failures are treated as first-class design inputs
+- Every system follows strict layered architecture
+
+---
+
+# 🧩 REPOSITORY STRUCTURE
+
+## 🧱 Platform Systems
+- inventory_api
+- task-engine
+- retrieval-service
+- ingestion-pipeline
+- file-storage-api
+- auth-framework
+
+## 🧪 Experiments
+- SaaS MVP prototypes
+- mock_data systems
+- lead generation experiments
+
+## 🔥 Reliability Portfolio (Debugging Systems)
+- JWT authentication failures (20+ scenarios)
+- RAG cache + ranking failures
+- Docker deployment failures
+- Database & schema failures
+- Cloud production issues
+- System design failures
+
+---
+
+# 🚀 WHAT THIS PLATFORM DEMONSTRATES
+
+- Distributed systems design
+- Backend architecture at scale
+- AI + RAG system implementation
+- Production debugging experience (SRE mindset)
+- Multi-service backend platform design
+
+---
+
+# 🧠 FINAL STATEMENT
+
+I specialize in building and debugging distributed backend systems
+that combine AI, orchestration, and cloud infrastructure.
+
+My focus is not just building applications —
+but designing systems that remain reliable under failure.
