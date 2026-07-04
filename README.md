@@ -1,67 +1,99 @@
 # Mahesh Patel
 
-Backend Engineer | Python | FastAPI | Distributed Systems | AI Backend Systems
+Backend Systems Engineer | Python | FastAPI | Distributed Systems | AI Backend Systems
 
 ---
 
-## 🧠 What I Build
+# 🧠 Engineering Identity
 
-I design and build backend systems using:
+I build **modular backend systems** that combine:
 
-- Clean Architecture (API → Service → Repository → Domain)
-- Event-driven design (Redis, event bus concepts)
-- Data pipelines (ingestion → processing → storage)
-- AI retrieval systems (embeddings, ranking, context building)
-- Cloud-native deployments (Azure Container Apps, Docker)
+- Clean architecture design
+- Distributed execution patterns
+- Data + AI retrieval pipelines
+- Cloud-native deployment systems
 
----
-
-## 🏗️ Core Engineering Philosophy
-
-- One responsibility per layer
-- Modular backend systems
-- Production-style architecture thinking
-- Understand failure modes, not just happy paths
-- Build systems that can scale and evolve
+My focus is not APIs — I build **backend platforms composed of services**.
 
 ---
 
-## 📦 Flagship Systems
+# 🏗️ What I Build
 
-### Platform Engineering
-- patel-platform-service-template
-- inventory-api
+I design systems where each layer has a single responsibility:
 
-### Data Systems
-- patel-data-ingestion-pipeline
-- patel-retrieval-service
+### API Layer
+- FastAPI-based service interfaces
+- Request validation + routing
 
-### Identity & Security
-- patel-auth-service-framework
-- patel-distributed-auth-sharding
+### Service Layer
+- Business logic separation
+- Stateless processing design
 
----
+### Data Layer
+- PostgreSQL-backed systems
+- Structured persistence models
 
-## ☁️ Cloud Experience
+### System Layer
+- Event-driven workflows (Redis-ready design)
+- Async workers and task engines
+- Distributed execution patterns
 
-- Azure Container Apps (FastAPI deployments)
-- Dockerized backend services
-- API-based microservices deployment
-
----
-
-## 🎯 Current Focus
-
-- Finalizing Inventory API
-- Standardizing all repositories
-- Adding Redis + event-driven architecture in platform template
-- Preparing production-ready GitHub portfolio
+### AI Layer
+- Embedding-based retrieval systems
+- Reranking + context construction pipelines
+- RAG-style backend architecture
 
 ---
 
-## 📫 Goal
+# 🧱 Core Engineering Philosophy
 
-Backend Engineer roles focusing on:
-- Python Backend Development
+- Systems are composed, not written
+- Every layer must be independently testable
+- Failures are designed for, not ignored
+- Complexity is introduced only when needed
+- Backend systems must evolve, not be rewritten
+
+---
+
+# 📦 Flagship Systems
+
+## 🟦 Platform Engineering
+- patel-platform-service-template  
+- patel-inventory-api  
+
+## 🟨 Data & AI Systems
+- patel-data-ingestion-pipeline  
+- patel-retrieval-service  
+
+## 🟩 Identity & Distributed Systems
+- patel-auth-service-framework  
+- patel-distributed-auth-sharding  
+
+---
+
+# ☁️ Cloud Experience
+
+- Azure Container Apps (production deployments)
+- Docker-based microservices
+- RESTful backend system deployment
+- Cloud-ready architecture design
+
+---
+
+# 🚀 Current Focus
+
+- Finalizing Inventory API (production-ready structure)
+- Standardizing all repositories under consistent architecture
+- Introducing Redis-based event-driven patterns
+- Strengthening system-level design consistency across all projects
+
+---
+
+# 🎯 Career Direction
+
+I am targeting roles in:
+
+- Backend Engineering (Python / FastAPI)
 - Platform Engineering
-- AI Backend Systems
+- Distributed Systems Engineering
+- AI Backend Systems (RAG / Retrieval / Pipelines)
