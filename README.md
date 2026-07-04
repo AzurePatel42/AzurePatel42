@@ -1,151 +1,67 @@
-# 🧠 Mahesh Patel  
-### Distributed Backend Systems • AI Retrieval (RAG) • Cloud Reliability Engineering
+# Mahesh Patel
 
-I design and build distributed backend platforms that operate across:
-
-- Task orchestration systems  
-- AI retrieval pipelines (RAG architectures)  
-- Deterministic system-of-record layers  
-- Data ingestion & preprocessing pipelines  
-- Cloud infrastructure with SRE-grade reliability  
-
-These systems are engineered to remain **correct, observable, and resilient under failure — not just functional in ideal conditions.**
+Backend Engineer | Python | FastAPI | Distributed Systems | AI Backend Systems
 
 ---
 
-# ⚙️ Platform Architecture
-                AUTH LAYER (JWT / Identity)
-                          │
-    ┌──────────────────────────────────────────┐
-    │           PLATFORM CORE                  │
-    │                                          │
-    │  Task Engine   → Orchestration Layer     │
-    │  Inventory     → System of Record        │
-    │  Retrieval     → AI Intelligence (RAG)   │
-    │  Ingestion     → Data Processing Layer   │
-    │  File Storage  → Asset Management        │
-    └──────────────────────────────────────────┘
-                          │
-    ┌──────────────────────────────────────────┐
-    │        INTELLIGENCE LAYER               │
-    │   Embeddings | Ranking | Context Build   │
-    └──────────────────────────────────────────┘
-                          │
-    ┌──────────────────────────────────────────┐
-    │      RELIABILITY / SRE LAYER            │
-    │ JWT | Docker | DB | Cloud | Cache | API  │
- 
-    └──────────────────────────────────────────
-  
----
+## 🧠 What I Build
 
-# 🧱 Core Platform Systems
+I design and build backend systems using:
 
-## 📦 Inventory System (System of Record)
-- FastAPI + PostgreSQL
-- Central source of truth for all entities
-- Shared across all platform services
+- Clean Architecture (API → Service → Repository → Domain)
+- Event-driven design (Redis, event bus concepts)
+- Data pipelines (ingestion → processing → storage)
+- AI retrieval systems (embeddings, ranking, context building)
+- Cloud-native deployments (Azure Container Apps, Docker)
 
 ---
 
-## ⚙️ Task Engine (Orchestration Layer)
-- Lifecycle-based execution system
-- State-machine workflow engine
-- Worker-based distributed processing
+## 🏗️ Core Engineering Philosophy
+
+- One responsibility per layer
+- Modular backend systems
+- Production-style architecture thinking
+- Understand failure modes, not just happy paths
+- Build systems that can scale and evolve
 
 ---
 
-## 🧠 Retrieval Service (AI Intelligence Layer)
-- Vector search + embedding pipelines
-- Ranking + context assembly
-- RAG-based retrieval system
+## 📦 Flagship Systems
+
+### Platform Engineering
+- patel-platform-service-template
+- inventory-api
+
+### Data Systems
+- patel-data-ingestion-pipeline
+- patel-retrieval-service
+
+### Identity & Security
+- patel-auth-service-framework
+- patel-distributed-auth-sharding
 
 ---
 
-## 📥 Data Ingestion Pipeline
-- Chunking, preprocessing, taxonomy system
-- Embedding preparation pipeline
-- Structured data normalization
+## ☁️ Cloud Experience
+
+- Azure Container Apps (FastAPI deployments)
+- Dockerized backend services
+- API-based microservices deployment
 
 ---
 
-## 📁 File Storage API
-- Azure Blob Storage integration
-- Metadata-driven asset management
-- Cross-service file access layer
+## 🎯 Current Focus
+
+- Finalizing Inventory API
+- Standardizing all repositories
+- Adding Redis + event-driven architecture in platform template
+- Preparing production-ready GitHub portfolio
 
 ---
 
-## 🔐 Auth Framework
-- JWT-based authentication system
-- Distributed trust + RBAC design
-- Multi-service identity validation
+## 📫 Goal
 
----
-
-# 🔥 Reliability Engineering (SRE Practice)
-
-I actively design and debug real-world system failures across:
-
-- JWT authentication & authorization failures  
-- RAG retrieval and embedding breakdowns  
-- Docker deployment issues  
-- Database consistency and schema failures  
-- Cloud deployment failures (Azure / AWS)  
-- Caching and performance bottlenecks  
-- Distributed system design failures  
-
-> I don’t just build systems — I stress-test them under failure conditions.
-
----
-
-# 🧪 Experimental SaaS Systems
-
-- Cloud Waste Detection Platform  
-- Unused License Optimization System  
-- Lead Generation Intelligence Pipeline (mock → production evolution)
-
----
-
-# 🧩 Repository Structure
-
-## 🧱 Platform Systems
-- inventory_api  
-- task-engine  
-- retrieval-service  
-- ingestion-pipeline  
-- file-storage-api  
-- auth-framework  
-
-## 🧪 Experiments
-- SaaS MVP prototypes  
-- mock_data systems  
-- lead generation experiments  
-
-## 🔥 Reliability Portfolio (Debugging Systems)
-- JWT authentication failures (20+ scenarios)  
-- RAG cache, ranking & embedding failures  
-- Docker deployment failures  
-- Database & schema failures  
-- Cloud production issues  
-- System design failures  
-
----
-
-# 🧠 Engineering Philosophy
-
-- System of Record must always be deterministic and isolated  
-- AI systems are probabilistic, never authoritative  
-- Each service is independently deployable  
-- Failures are first-class design inputs  
-- Every system follows strict layered architecture  
-
----
-
-# 🚀 Final Statement
-
-I build and debug distributed backend systems that combine  
-AI retrieval, task orchestration, and cloud infrastructure design.
-
-My focus is not building applications —  
-but designing systems that behave predictably under failure, scale, and real-world constraints.
+Backend Engineer roles focusing on:
+- Python Backend Development
+- Platform Engineering
+- AI Backend Systems
