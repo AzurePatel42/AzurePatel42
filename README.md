@@ -6,52 +6,56 @@ Backend Systems Engineer | Python | FastAPI | Distributed Systems | AI Backend S
 
 # 🧠 Engineering Identity
 
-I build **modular backend systems** that combine:
+I design and build **modular backend systems** that evolve into scalable platforms.
 
-- Clean architecture design
-- Distributed execution patterns
-- Data + AI retrieval pipelines
-- Cloud-native deployment systems
+My work sits at the intersection of:
+- Distributed system design
+- Data engineering pipelines
+- AI retrieval architectures
+- Cloud-native backend services
 
-My focus is not APIs — I build **backend platforms composed of services**.
+> I don’t build isolated APIs — I build backend platforms composed of services.
 
 ---
 
-# 🏗️ What I Build
+# 🏗️ System Design Approach
 
-I design systems where each layer has a single responsibility:
+Every system I build follows a layered architecture:
 
 ### API Layer
-- FastAPI-based service interfaces
-- Request validation + routing
+- FastAPI service interfaces
+- Request validation and routing
+- Clean contract-based design
 
 ### Service Layer
-- Business logic separation
-- Stateless processing design
+- Business logic isolation
+- Stateless execution patterns
+- Domain-focused design
 
 ### Data Layer
-- PostgreSQL-backed systems
-- Structured persistence models
+- PostgreSQL-backed persistence
+- Structured schema design
+- Reliable data modeling
 
 ### System Layer
-- Event-driven workflows (Redis-ready design)
-- Async workers and task engines
-- Distributed execution patterns
+- Event-driven architecture (Redis-ready)
+- Async workers and task execution
+- Distributed processing patterns
 
 ### AI Layer
 - Embedding-based retrieval systems
-- Reranking + context construction pipelines
-- RAG-style backend architecture
+- Ranking and reranking pipelines
+- Context construction for LLM systems
 
 ---
 
-# 🧱 Core Engineering Philosophy
+# 🧱 Engineering Philosophy
 
 - Systems are composed, not written
 - Every layer must be independently testable
-- Failures are designed for, not ignored
-- Complexity is introduced only when needed
-- Backend systems must evolve, not be rewritten
+- Failure paths are designed, not ignored
+- Complexity is introduced only when necessary
+- Systems evolve — they are not rewritten
 
 ---
 
@@ -74,24 +78,24 @@ I design systems where each layer has a single responsibility:
 # ☁️ Cloud Experience
 
 - Azure Container Apps (production deployments)
-- Docker-based microservices
-- RESTful backend system deployment
-- Cloud-ready architecture design
+- Dockerized microservices
+- REST-based backend systems
+- Cloud-native architecture design
 
 ---
 
 # 🚀 Current Focus
 
-- Finalizing Inventory API (production-ready structure)
-- Standardizing all repositories under consistent architecture
+- Finalizing Inventory API with production-grade structure
+- Standardizing repository architecture across all systems
 - Introducing Redis-based event-driven patterns
-- Strengthening system-level design consistency across all projects
+- Strengthening system consistency across backend ecosystem
 
 ---
 
 # 🎯 Career Direction
 
-I am targeting roles in:
+Targeting roles in:
 
 - Backend Engineering (Python / FastAPI)
 - Platform Engineering
